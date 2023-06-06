@@ -12,5 +12,6 @@ it ('Leave Employee' , () => {
     cy.get('div[tabindex="0"]').click();
     cy.get('div[role="listbox"]').contains('CAN - Bereavement').click();
     cy.get('div[class="oxd-date-input-calendar"]').click();
+    cy.get()
 })
 })
